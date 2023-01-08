@@ -21,6 +21,9 @@ func main() {
 	} else {
 		status = "failing"
 	}
+	if grade >= 90 {
+		status = "bred"
+	}
 	fmt.Println("A grade of", grade, "is", status)
 
 }
